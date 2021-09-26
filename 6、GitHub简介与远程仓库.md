@@ -57,7 +57,7 @@
 
     + 4、使用SSH执行推送操作
 
-      + 4.1 将远程仓库的地址绑定到本地与删除绑定
+      + 4.1 将远程仓库的地址绑定到本地、删除绑定
         + git remote add origin git@github.com:lulong9527/xxx.git
           + 其中 origin 叫做远程仓库的别名
           + git@github.com:lulong9527/xxx.git   指的是远程仓库地址
@@ -81,8 +81,9 @@
 
 + 6、执行远程推送
 
-  + 1、绑定远程仓库地址
+  + 1、绑定远程仓库地址查看远程库信息
     + git remote add origin git@github.com:lulong9527/xxx.git
+    + git remote -v 查看远程库信息
   + 2、本地创建主干分支
     + git branch -M main
 
