@@ -81,7 +81,7 @@
 
 + 6、执行远程推送
 
-  + 1、绑定远程仓库地址查看远程库信息
+  + 1、绑定远程仓库地址与查看远程库信息
     + git remote add origin git@github.com:lulong9527/xxx.git
     + git remote -v 查看远程库信息
   + 2、本地创建主干分支
