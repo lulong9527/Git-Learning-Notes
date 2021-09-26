@@ -9,3 +9,14 @@
 
 + 参考文档: <https://www.cnblogs.com/jfen625/p/12995408.html>
 
+# 2、Git branch 出现"HEAD detached at head xxxxx"
+
+前提：删除本地分支出现HEAD detached at head ，执行以下步骤
+
++ git branch <your-branch-name> xxxxx           # 给 xxxxx 起个 branch 名
+
++ git checkout master                                        # Head 指到 master，当然可以是其它的branch
+
++ git merge <your-branch-name>                      # 合并到当前 主干branch
+
++ git branch -d <your-branch-name>                 # 删除临时 branch
