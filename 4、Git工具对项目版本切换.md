@@ -61,3 +61,8 @@
     - git reset --hard commitid    -> commitid 指的是每次提交的id,
       - 可先使用 git log --pretty=oneline 进行查看所用提交，
       - 在使用 git reset --hard  xxx 进行选择提交的版本
+
+### 3. git远程版本回退
+
+​	git push origin master --force
+

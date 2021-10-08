@@ -20,3 +20,4 @@
 # 4、检查git的配置
 
 + git config --list
+
