@@ -1,1 +1,14 @@
 ._*
+.vscode/
+.idea/
+__pycache__/
+venv/
+
+*.xlsx
+*.sqlite3
+
+*test.py
+*.log
+
+dist/
+build/
